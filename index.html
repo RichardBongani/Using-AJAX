@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>AJAX</title>
+</head>
+<body>
+    <!-- <h1 id="demo">change this</h1>
+    <button type="button" onclick="changeText()">Click to change</button>
+
+    <script>
+
+    function changeText(){
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function(){
+            if (xhttp.readyState == 4 && xhttp.status == 200){
+                document.getElementById('demo').innerHTML = xhttp.responseText;
+            }
+        }
+        xhttp.open('GET', 'file.txt', true);
+        xhttp.send();
+    }
+    </script> -->
+    <section class="container">
+        <form id="my-form">
+            <div class="form-group">
+                <label >Find Github User</label>
+                <input type="text" id="username" class="form-control" placeholder="Enter user...">
+            </div>
+        </form>
+        <h3>See if you are on Github</h3>
+        <div id="profile"></div>
+    </section>
+</body>
+</html>
