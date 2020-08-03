@@ -1,5 +1,5 @@
 # Project Name
-  - AJAX API 
+  - USING GITHUB REST API 
 # How does it work
   - This project uses an api to search for users on github and displays the image, name, bio, email, and last profile updated. To use it just clone the repository 
      into your machine and you can run it locally.
